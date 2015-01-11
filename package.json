@@ -1,0 +1,30 @@
+{
+  "name": "node-markdown-to-manning",
+  "version": "0.0.0",
+  "description": "node.js application to convert markdown to Manning's Agile Author XML",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddprrt/node-markdown-to-manning.git"
+  },
+  "keywords": [
+    "manning",
+    "agile",
+    "author",
+    "xml",
+    "markdown"
+  ],
+  "author": "@ddprrt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddprrt/node-markdown-to-manning/issues"
+  },
+  "homepage": "https://github.com/ddprrt/node-markdown-to-manning",
+  "dependencies": {
+    "libxml-xsd": "^0.2.0",
+    "marked": "^0.3.2"
+  }
+}
